@@ -40,3 +40,33 @@ OpenMPI (two nodes) | n = (2,4,...,32)
 OpenMPI (two nodes) | n = (2,4,...,64) in two nodes, with n/2 processes each
 OpenMPI com OpenMP (one node) | n = (2,4,...,32), for each n, 2^2 to 2^6 threads
 OpenMPI com OpenMP (two nodes) | n = (2,4,...,64) in two nodes, with n/2 processes each and, for each n we have 2^2 to 2^6 threads
+
+## Some results
+### Best Peformance
+
+![Best Peformance](https://github.com/carloselcastro/mandelbrot/blob/master/image/1.png)
+
+### Worst Peformance
+
+![Worst Performance](https://github.com/carloselcastro/mandelbrot/blob/master/image/2.png)
+
+### Peformance by varyng the number of threads
+
+![Peformance by varyng the number of threads](https://github.com/carloselcastro/mandelbrot/blob/master/image/3.png)
+
+### Peformance by varyng the number of processes (one node)
+
+![Peformance by varyng the number of processes (one node)](https://github.com/carloselcastro/mandelbrot/blob/master/image/4.png)
+
+### Peformance by varyng the number of processes (two nodes)
+
+![Peformance by varyng the number of processes (two node)](https://github.com/carloselcastro/mandelbrot/blob/master/image/5.png)
+
+### Peformance by varyng the number of blocks with 8 processes (Cuda and Cuda+OpenMPI)
+
+![Peformance by varyng the number of blocks with 8 processes (Cuda and Cuda+OpenMPI)](https://github.com/carloselcastro/mandelbrot/blob/master/image/6.png)
+
+### Peformance by varyng the number of blocks with 32 processes (Cuda and Cuda+OpenMPI)
+
+![Peformance by varyng the number of blocks with 32 processes (Cuda and Cuda+OpenMPI)](https://github.com/carloselcastro/mandelbrot/blob/master/image/7.png)
+
