@@ -3,11 +3,15 @@
 This repository contains some of programs-exercises of class MAC5742 - Introduction to Concurrent, Parallel and Distributed Programming (2020) - Institute of Mathematics and Statistics, São Paulo University (IME-USP).
 
 ## Members
-Carlos Eduardo Leal de Castro
-Felipe de Lima Peressim	
-José Luiz Maciel Pimenta
-Luis Ricardo Manrique
-Rafael Fernandes Alencar	
+Carlos Eduardo Leal de Castro - o/
+
+[Felipe de Lima Peressim](https://github.com/feperessim)
+
+[José Luiz Maciel Pimenta](https://github.com/JoseLuiz432)
+
+[Luis Ricardo Manrique](https://github.com/lllmanriquelll)
+
+[Rafael Fernandes Alencar](https://github.com/rafalencar1997)
 
 ### Goal
 The main goal of this work was to generate the Mandelbrot Set using different approaches: Sequential, Pthreads, OpenMP, OpenMPI and Cuda.
