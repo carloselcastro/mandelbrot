@@ -62,11 +62,11 @@ OpenMPI com OpenMP (two nodes) | n = (2,4,...,64) in two nodes, with n/2 process
 
 ![Peformance by varyng the number of processes (two node)](https://github.com/carloselcastro/mandelbrot/blob/master/image/5.png)
 
-### Peformance by varyng the number of blocks with 8 processes (Cuda and Cuda+OpenMPI)
+### Peformance by varyng the dimensions of blocks and with 8 processes (Cuda and Cuda+OpenMPI)
 
 ![Peformance by varyng the number of blocks with 8 processes (Cuda and Cuda+OpenMPI)](https://github.com/carloselcastro/mandelbrot/blob/master/image/6.png)
 
-### Peformance by varyng the number of blocks with 32 processes (Cuda and Cuda+OpenMPI)
+### Peformance by varyng the dimensions of blocks and with 32 processes (Cuda and Cuda+OpenMPI)
 
 ![Peformance by varyng the number of blocks with 32 processes (Cuda and Cuda+OpenMPI)](https://github.com/carloselcastro/mandelbrot/blob/master/image/7.png)
 
