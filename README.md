@@ -33,12 +33,12 @@ Sequential | ---
 OpenMP | 2^0 to 2^10 threads
 Pthreads | 2^0 to 2^10 threads
 CUDA | 2^2 a 2^6 clock size
-CUDA+OpenMPI (one node) | n = (2,4,...,32), for each n, 2^2 to 2^6 clock size
-CUDA+OpenMPI (two nodes) | n = (2,4,...,64) in two nodes, each one with n/2 processes, for each n, 2^2 to 2^6 block size
-OpenMPI (two nodes) | n = (2,4,...,32)
-OpenMPI (two nodes) | n = (2,4,...,64) in two nodes, with n/2 processes each
-OpenMPI com OpenMP (one node) | n = (2,4,...,32), for each n, 2^2 to 2^6 threads
-OpenMPI com OpenMP (two nodes) | n = (2,4,...,64) in two nodes, with n/2 processes each and, for each n we have 2^2 to 2^6 threads
+CUDA+OpenMPI (one node) | Block size n = (2,4,...,32), for each n, 2^2 to 2^6 clock size
+CUDA+OpenMPI (two nodes) | Block size n = (2,4,...,64) in two nodes, each one with n/2 processes, for each n, 2^2 to 2^6 block size
+OpenMPI (two nodes) | Block size n = (2,4,...,32)
+OpenMPI (two nodes) | Block size n = (2,4,...,64) in two nodes, with n/2 processes each
+OpenMPI+OpenMP (one node) | Block size n = (2,4,...,32), for each n, 2^2 to 2^6 threads
+OpenMPI+OpenMP (two nodes) | Block size n = (2,4,...,64) in two nodes, with n/2 processes each and, for each n we have 2^2 to 2^6 threads
 
 ## Some results
 ### Best Peformance
