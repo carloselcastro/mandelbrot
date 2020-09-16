@@ -22,7 +22,6 @@ The Mandelbrot Set is the set of all complex points <a href="https://www.codecog
 
 ## Performance tests
 
-Experimentos
 We performed some performance tests to compare all the methods used here: sequential, pthreads, openmp, openmpi, cuda, openmpi+openmp and openmpi+cuda. In these experiments, we measure the average time of 15 executions on each method, varying 3 different parameters:
 * Dimensions (x,y) of grid and blocks (CUDA);
 * Number of Threads (Pthreads and OMP);
